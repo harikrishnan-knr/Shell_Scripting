@@ -2,8 +2,8 @@
 
 # Username of Linux
 echo "Enter Your Username :"
-read user
-echo "Username : " $user
+read USERNAME
+echo "Username : " $USERNAME
 
 # Update & Upgrade
 echo "system update & plugin installation"
@@ -32,7 +32,7 @@ echo "docker service enable and stated!!!"
 # User add in Docker group
 echo "user adding in docker group"
 
-sudo usermod -aG docker $user
+sudo usermod -aG docker $USERNAME
 
 echo "user added in docker group"
 
