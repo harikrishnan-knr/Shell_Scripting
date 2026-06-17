@@ -8,7 +8,7 @@ echo "Username : " $user
 # Update & Upgrade
 echo "system update & plugin installation"
 
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 sudo apt install unzip wget curl -y
 
 echo "system update & plugin installation completed!!!"
